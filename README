@@ -1,0 +1,56 @@
+
+# AI Image Caption Generator
+
+## Project Description
+This project generates automatic captions for uploaded images using Artificial Intelligence and Deep Learning.
+
+## Technologies Used
+- Python
+- Streamlit
+- PyTorch
+- Hugging Face Transformers
+- BLIP Image Captioning Model
+- Pillow
+
+## Model Used
+Salesforce/blip-image-captioning-base
+
+## Features
+- Upload images in JPG, JPEG, PNG and WEBP formats.
+- Generate captions automatically.
+- Display the uploaded image.
+- Run the model using CPU or compatible GPU.
+
+## Installation
+
+Install the required libraries:
+
+```bash
+pip install -r requirements.txt
+```
+
+## How to Run
+
+Execute this command:
+
+```bash
+python -m streamlit run app1.py
+```
+
+The application will open in your web browser.
+
+## Working Process
+1. User uploads an image.
+2. The image is processed using BLIP Processor.
+3. The pretrained BLIP model analyzes the image.
+4. The model generates a descriptive caption.
+5. The caption is displayed on the screen.
+
+## Output Example
+
+Input: Image of a man wearing a helmet on a motorcycle.
+
+Generated Caption: A man wearing a helmet on a motorcycle.
+
+## Developed Using
+Python and Streamlit.
